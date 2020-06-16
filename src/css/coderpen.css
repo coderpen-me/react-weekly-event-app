@@ -32,6 +32,12 @@
         transition: color 0.15s ease-in-out background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     }
     
+    @media(max-width: 700px) {
+        .btn-cust {
+            display: none;
+        }
+    }
+    
     .overlay-box3 {
         position: absolute;
         z-index: 1;
